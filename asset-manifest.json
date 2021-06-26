@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23a0466a.chunk.css",
+    "main.js": "/static/js/main.124af4d1.chunk.js",
+    "main.js.map": "/static/js/main.124af4d1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.66ce9a02.js",
+    "runtime-main.js.map": "/static/js/runtime-main.66ce9a02.js.map",
+    "static/js/2.f5bddf70.chunk.js": "/static/js/2.f5bddf70.chunk.js",
+    "static/js/2.f5bddf70.chunk.js.map": "/static/js/2.f5bddf70.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.23a0466a.chunk.css.map": "/static/css/main.23a0466a.chunk.css.map",
+    "static/js/2.f5bddf70.chunk.js.LICENSE.txt": "/static/js/2.f5bddf70.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/static/media/hero-back.ab8d663b.png",
+    "static/media/newImg.e100990a.png": "/static/media/newImg.e100990a.png",
+    "static/media/trendImg.c775f8a8.png": "/static/media/trendImg.c775f8a8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66ce9a02.js",
+    "static/js/2.f5bddf70.chunk.js",
+    "static/css/main.23a0466a.chunk.css",
+    "static/js/main.124af4d1.chunk.js"
+  ]
+}
