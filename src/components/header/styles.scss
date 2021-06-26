@@ -1,0 +1,84 @@
+.header {
+  background-color: #6E9B85;
+  position: relative;
+  &__coffee {
+    position: absolute;
+    top: 20px;
+    left: 210px;
+    width: 40px;
+    height: 40px;
+    stroke-dashoffset: 840;
+    stroke-dasharray: 840;
+    animation: coffee 3s infinite linear;
+  }
+  &__inner {
+    display: flex;
+    text-align: center;
+    padding: 36px 0px 25px 0px;
+    justify-content: space-between;
+  }
+  &__btn {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    margin-right: 20px;
+    &:hover {
+      color: white;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__logo {
+    margin-right: 180px;
+    display: flex;
+  }
+  &__search {
+    display: flex;
+    margin-right: 150px;
+    position: relative;
+    &-icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+    input {
+      padding-left: 30px;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid black;
+      outline: none;
+      padding-bottom: 2px;
+      &::placeholder {
+        color: black;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+  &__link {
+    display: flex;
+    li {
+      margin-right: 50px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    a {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 19px;
+      color: black;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

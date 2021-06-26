@@ -1,0 +1,43 @@
+.footer {
+    background-color: rgba(179, 154, 134, 1);
+    padding: 30px 0;
+    border-top: 1px solid #000;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        display: flex;
+        span {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 19px;
+            color: #000000;
+            margin-right: 5px;
+        }
+    }
+    &__text {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    &__insta ,
+    &__twitter {
+        margin-right: 45px;
+        &:hover svg path{
+            transition: 0.3s;
+            fill: white;
+        }
+    }
+    &__in {
+        &:hover svg path{
+            transition: 0.3s;
+            fill: white;
+        }
+    }
+}
